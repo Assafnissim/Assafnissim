@@ -1,0 +1,13 @@
+@echo off
+title Asap %DATE% %TIME%
+
+SET /P A="type A" 
+echo %A%
+SET /P B= "type B"
+ECHO %B%
+SET /A C=%A% + %B%
+
+If %C% == 5 (echo C Is 5)  else (echo not 5)
+
+
+Pause
